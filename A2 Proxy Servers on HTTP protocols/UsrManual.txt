@@ -1,0 +1,51 @@
+USER MANUAL FOR WEBPROXY.TXT
+
+Vers 1.0 
+
+Author: Fardin Mahid
+
+Date: Oct 19, 2023
+
+WEBPROXY.TXT is a web proxy created for the purpose of opening and browsing HTTP webpages... with a cactch! 
+
+The creator of this proxy absolutley HATES frogs and desires a world without those detesable fiends. In addition to that, 
+
+the creator's nickanme in highschool was "Freddy" or "Fred" for short. Saying that, for every instance of the word 'frog' 
+
+in a HTTP webpage, the proxy will replace it with 'fred.'
+
+
+Note: I tried to do the images too but I just could not. Will try to resolve issue before the in person meeting.
+
+How to use:
+
+    1. Make sure your brower accepts proxy connections.
+
+        1. Open 'settings' in your browser of choice.
+
+        2. go to proxy settings.
+
+        3. allow proxies and then set host to whatever the proxy is running on.
+
+        and port to 8184.
+
+        4. (MAKE SURE YOU DO THIS EVERY INSTANCE) Reset cache on your device.
+
+    2. Compile code using g++ WebProxy.cpp on a linux-based device.
+
+    3. Run file with ./a.out .
+
+    4. Quickly open up the desired HTTP webpage. 
+
+     ~~ The webpage should load, and everything should be presented in the terminal. ~~
+
+    5. The while loop doesn't allow for continued use so everytime you want to open a new page,
+    
+     go back and repeat step 1 part 4 (clear cache) and step 3. 
+
+    
+    
+
+
+
+    
